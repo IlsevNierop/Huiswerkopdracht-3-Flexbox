@@ -1,1 +1,48 @@
 /*Schrijf hier jouw CSS*/
+
+*{
+    /*border: 1px solid indianred;*/
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 1; /* geeft aan dat de mains ook naar beneden mogen groeien */
+
+}
+
+main > nav, main > aside {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+#flex-row {
+    flex-grow: 3;
+    flex-shrink: 1;
+}
+
+header, footer {
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 100px;
+}
+
+
+#flex-row, main > aside {
+    order: 0;
+}
+
+main > nav {
+    order: 1;
+}
+
+
+
+
