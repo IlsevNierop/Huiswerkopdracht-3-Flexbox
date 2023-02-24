@@ -3,5 +3,56 @@
 * {
     box-sizing: border-box;
     margin-bottom: 0;
-    padding: o;
+    padding: 0;
+    /*border: 1px solid indianred;*/
 }
+.opdracht-1 > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opdracht-1 li {
+    display: flex;
+    flex-direction: row;
+
+}
+.opdracht-2 > ul {
+    display: flex;
+
+}
+
+.opdracht-2 li {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 300px;
+
+}
+.opdracht-3 .flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opdracht-3 li {
+    display: flex;
+    flex-direction: row;
+
+}
+#item1 {
+    align-self: flex-start;
+}
+#item2 {
+     align-self: center;
+ }
+#item3 {
+    align-self: flex-end;
+}
+
+.opdracht-4 {
+    display: flex;
+}
+.opdracht-4 > ul {
+    display: flex;
+
+}
+
+
