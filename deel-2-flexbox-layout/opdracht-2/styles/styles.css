@@ -14,9 +14,8 @@ body {
     flex-grow: 1;
     flex-shrink: 1;
 }
-
-div > header, footer {
-    height: 150px;
+.col-2 > header, footer {
+    flex-basis: 150px;
 }
 
 main {

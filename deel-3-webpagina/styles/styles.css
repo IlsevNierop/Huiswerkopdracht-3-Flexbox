@@ -1,1 +1,68 @@
 /*Schrijf hier jouw css*/
+
+/*kleuren:
+#151E3F - space cadet (blauw)
+#030027 - oxford blue
+#F2F3D9 - beige
+#DC9E82 - buff
+#C16E70 - old rose
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid indianred;*/
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+
+.red-item {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+    gap: 30px;
+    justify-content: center;
+
+
+}
+
+section {
+    display: flex;
+    background-color: #C16E70;
+    border-radius: 10px;
+    align-items: flex-end;
+    align-content: center;
+    flex-basis: 280px;
+    height: 350px;
+
+}
+
+
+
