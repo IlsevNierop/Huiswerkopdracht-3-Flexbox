@@ -23,6 +23,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     gap: 30px;
+    background-color: #F2F3D9;
 
 
 }
@@ -32,7 +33,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     background-color: #030027;
-    color: #F2F3D9;
+    color: white;
 }
 
 nav > ul {
