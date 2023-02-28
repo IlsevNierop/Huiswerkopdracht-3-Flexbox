@@ -30,7 +30,6 @@ body {
 
 nav {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     background-color: #030027;
     color: white;
@@ -56,6 +55,8 @@ div {
 h1 {
     font-size: 25px;
 }
+
+
 
 h3 {
     font-size: 15px;

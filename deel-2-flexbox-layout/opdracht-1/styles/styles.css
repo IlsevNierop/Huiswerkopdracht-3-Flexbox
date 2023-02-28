@@ -12,29 +12,21 @@ body {
 
 main {
     display: flex;
-    flex-direction: row;
-    flex-basis: auto;
-    flex-grow: 1; /* geeft aan dat de mains ook naar beneden mogen groeien */
+    flex: 1 1 auto;
 
 }
 
 main > nav, main > aside {
-    flex-basis: 20vw;
-    flex-grow: 1;
-    flex-shrink: 0;
-}
+    flex: 1 0 20vw;
+ }
 
 #flex-row {
-    flex-basis: 60vw;
-    flex-grow: 3;
-    flex-shrink: 1;
-}
+    flex: 3 1 60vw;
+   }
 
 header, footer {
-    flex-shrink: 0;
-    flex-grow: 0;
-    flex-basis: 100px;
-}
+    flex: 0 0 100px;
+   }
 
 
 #flex-row, main > aside {
