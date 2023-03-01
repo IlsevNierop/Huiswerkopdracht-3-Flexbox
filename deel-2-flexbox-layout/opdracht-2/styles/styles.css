@@ -11,7 +11,8 @@ body {
     flex-direction: column;
     flex: 1 1 auto;
 }
-.col-2 > header, footer {
+.col-2 > * {
+    /*alleen direct childs - dus niet article, want die zit in main*/
     flex-basis: 150px;
 }
 
