@@ -55,12 +55,8 @@
 
 }
 
-.opdracht-5 {
-    display: flex;
-}
 .opdracht-5 > div {
     display: flex;
-    flex-basis: 100%;
 }
 
 .opdracht-5  ul {
@@ -70,10 +66,10 @@
     flex-grow: 1;
 }
 
-.flex-container:nth-of-type(2){
+.ul-column:nth-of-type(2){
     align-items: center;
 }
-.flex-container:nth-of-type(3){
+.ul-column:nth-of-type(3){
     align-items: flex-end;
 }
 
