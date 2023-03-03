@@ -1,1 +1,77 @@
 /*Schrijf hier jouw CSS*/
+
+* {
+    box-sizing: border-box;
+    margin-bottom: 0;
+    padding: 0;
+    /*border: 1px solid indianred;*/
+}
+.opdracht-1 > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opdracht-1 li {
+    display: flex;
+
+}
+.opdracht-2 > ul {
+    display: flex;
+
+}
+
+.opdracht-2 li {
+    display: flex;
+    flex-basis: 300px;
+
+}
+.opdracht-3 .flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opdracht-3 li {
+    display: flex;
+
+}
+#item1 {
+    align-self: flex-start;
+}
+#item2 {
+     align-self: center;
+ }
+#item3 {
+    align-self: flex-end;
+}
+
+.opdracht-4 {
+    display: flex;
+
+}
+.opdracht-4 > ul {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.opdracht-5 > div {
+    display: flex;
+}
+
+.opdracht-5  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.ul-column:nth-of-type(2){
+    align-items: center;
+}
+.ul-column:nth-of-type(3){
+    align-items: flex-end;
+}
+
+
+

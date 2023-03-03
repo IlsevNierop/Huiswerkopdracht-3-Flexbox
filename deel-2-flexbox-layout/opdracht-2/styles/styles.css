@@ -1,1 +1,34 @@
 /*Schrijf hier jouw CSS*/
+
+body {
+    display: flex;
+    min-height: 100vh;
+
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+.col-2 > * {
+    /*alleen direct childs - dus niet article, want die zit in main*/
+    flex-basis: 150px;
+}
+
+main {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+main > article {
+    display: flex;
+    min-height: 400px;
+    flex: 1 1 auto;
+}
+
+.col-1, header, footer {
+    flex-basis: 15vw;
+    flex-grow: 0;
+    flex-shrink: 0;
+}

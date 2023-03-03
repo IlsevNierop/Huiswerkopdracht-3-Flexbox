@@ -1,1 +1,42 @@
 /*Schrijf hier jouw CSS*/
+
+*{
+    /*border: 1px solid indianred;*/
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex: 1 1 auto;
+
+}
+
+main > nav, main > aside {
+    flex: 1 0 20vw;
+ }
+
+#flex-row {
+    flex: 3 1 60vw;
+   }
+
+header, footer {
+    flex: 0 0 100px;
+   }
+
+
+#flex-row, main > aside {
+    order: 0;
+}
+
+main > nav {
+    order: 1;
+}
+
+
+
+
